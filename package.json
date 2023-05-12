@@ -1,0 +1,29 @@
+{
+  "name": "com.scandit.matrixscansimplesample",
+  "displayName": "MSSimple",
+  "version": "1.0.0",
+  "description": "MatrixScanSimpleSample for the Scandit Cordova plugin",
+  "main": "index.js",
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "cordova": {
+    "plugins": {
+      "scandit-cordova-datacapture-core": {},
+      "scandit-cordova-datacapture-barcode": {}
+    },
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-add-swift-support": "2.0.2",
+    "cordova-plugin-statusbar": "2.4.3",
+    "scandit-cordova-datacapture-barcode": "6.17.1",
+    "scandit-cordova-datacapture-core": "6.17.1"
+  },
+  "devDependencies": {
+    "cordova-ios": "^6.3.0"
+  }
+}
